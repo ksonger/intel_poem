@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<user>
+		<id>12345678</id>
+		<pass>encryptedPassword</pass>
+	</user>
+	<sensorDB>http://204.253.142.186/esbdb/query/query.php</sensorDB>
+	<!--<sensorDB>http://developers.dev.cmdpdx.com/twhetsell/poem/data.ashx</sensorDB>-->
+	<sensorDBPost>http://204.253.142.186/esbdb/query/post.php</sensorDBPost>
+	<sensorDBFeedback>http://204.253.142.186/esbdb/query/feedback.php</sensorDBFeedback>
+	<dataRetrievalInterval>30</dataRetrievalInterval>
+	<notificationAreaIcons>
+		<default>
+			<icon16>assets/images/icons/application/icon16.png</icon16>
+			<icon32>assets/images/icons/application/icon32.png</icon32>
+			<icon48>assets/images/icons/application/icon48.png</icon48>
+			<icon128>assets/images/icons/application/icon128.png</icon128>
+		</default>
+		<onTarget>
+			<icon16>assets/images/icons/status/onTarget16.png</icon16>
+			<icon32>assets/images/icons/status/onTarget32.png</icon32>
+			<icon48>assets/images/icons/status/onTarget48.png</icon48>
+			<icon128>assets/images/icons/status/onTarget128.png</icon128>
+		</onTarget>
+		<belowTarget>
+			<icon16>assets/images/icons/status/belowTarget16.png</icon16>
+			<icon32>assets/images/icons/status/belowTarget32.png</icon32>
+			<icon48>assets/images/icons/status/belowTarget48.png</icon48>
+			<icon128>assets/images/icons/status/belowTarget128.png</icon128>
+		</belowTarget>
+		<aboveTarget>
+			<icon16>assets/images/icons/status/aboveTarget16.png</icon16>
+			<icon32>assets/images/icons/status/aboveTarget32.png</icon32>
+			<icon48>assets/images/icons/status/aboveTarget48.png</icon48>
+			<icon128>assets/images/icons/status/aboveTarget128.png</icon128>
+		</aboveTarget>
+	</notificationAreaIcons>
+	<imageMappings>
+		<add name="background" value="assets/images/application/framework/background.png"/>
+		<add name="minimizeButton" value="assets/images/application/framework/window_minimize.png"/>
+		<add name="closeButton" value="assets/images/application/framework/window_close.png"/>
+		<add name="alertIcon" value="assets/images/application/alert/icon_alert.png"/>
+		
+		<add name="comfortHotIcon" value="assets/images/application/comfort/hot.swf"/>
+		<add name="comfortColdIcon" value="assets/images/application/comfort/cold.swf"/>
+		<add name="comfortArrowIcon" value="assets/images/application/comfort/arrow.swf"/>
+		
+		<add name="menuIconDashboard" value="assets/images/application/menu/icon_dashboard.png"/>
+		<add name="menuIconOffice" value="assets/images/application/menu/icon_office.png"/>
+		<add name="menuIconEv" value="assets/images/application/menu/icon_ev.png"/>
+		<add name="submenuBackground" value="assets/images/application/menu/submenu_background.png"/>
+		
+		<add name="dashboardStatusBackground" value="assets/images/application/dashboard/lg_background.png"/>
+		<add name="dashboardStatusBackgroundSmall" value="assets/images/application/dashboard/sm_background.png"/>
+		<add name="dashboardStatusMatte" value="assets/images/application/dashboard/lg_background_matte.png"/>
+		<add name="dashboardStatusMatteWide" value="assets/images/application/dashboard/lg_background_matte_wide.png"/>
+		
+		<add name="dashboardStatusFlowerPoor" value="assets/images/application/dashboard/lg_flower_poor.png"/>
+		<add name="dashboardStatusFlowerFair" value="assets/images/application/dashboard/lg_flower_fair.png"/>
+		<add name="dashboardStatusFlowerGood" value="assets/images/application/dashboard/lg_flower_good.png"/>
+		
+		<add name="dashboardStatusChartPoor" value="assets/images/application/dashboard/lg_chart_poor.png"/>
+		<add name="dashboardStatusChartFair" value="assets/images/application/dashboard/lg_chart_fair.png"/>
+		<add name="dashboardStatusChartGood" value="assets/images/application/dashboard/lg_chart_good.png"/>
+		
+		<add name="dashboardStatusChartPoorSmall" value="assets/images/application/dashboard/sm_chart_poor.png"/>
+		<add name="dashboardStatusChartFairSmall" value="assets/images/application/dashboard/sm_chart_fair.png"/>
+		<add name="dashboardStatusChartGoodSmall" value="assets/images/application/dashboard/sm_chart_good.png"/>		
+		
+		<add name="dashboardStatusTrendUp" value="assets/images/application/dashboard/lg_arrow_trend_up.png"/>
+		<add name="dashboardStatusTrendDown" value="assets/images/application/dashboard/lg_arrow_trend_down.png"/>
+		<add name="dashboardStatusTrendUpSmall" value="assets/images/application/dashboard/sm_arrow_trend_up.png"/>
+		<add name="dashboardStatusTrendDownSmall" value="assets/images/application/dashboard/sm_arrow_trend_down.png"/>		
+
+		<add name="usageBackground" value="assets/images/application/usage/background.png"/>
+		<add name="barChartBackground" value="assets/images/application/usage/bar_chart_background.png"/>
+		<add name="barChartCap" value="assets/images/application/usage/bar_cap.png"/>
+		
+		<add name="usagePluggableBackground" value="assets/images/application/usage/plug_background.png"/>
+		
+		<add name="usagePluggableMonitor" value="assets/images/application/usage/icon_monitor.png"/>
+		<add name="usagePluggableLights" value="assets/images/application/usage/icon_lights.png"/>
+		<add name="usagePluggableFan" value="assets/images/application/usage/icon_fan.png"/>
+		<add name="usagePluggableHeater" value="assets/images/application/usage/icon_heater.png"/>
+		<add name="usagePluggableComputer" value="assets/images/application/usage/icon_computer.png"/>
+		<add name="usagePluggableBattery" value="assets/images/application/usage/icon_battery.png"/>
+		<add name="usagePluggableToggleBackground" value="assets/images/application/usage/toggle_background.png"/>
+		<add name="usagePluggableToggleHandle" value="assets/images/application/usage/toggle_handle.png"/>
+		
+		
+		<add name="dashboardBackground" value="assets/images/application/dashboard.png"/>
+		<add name="usageStatusFairImage" value="assets/images/application/usage_status_fair.png"/>
+		<add name="usageStatusGoodImage" value="assets/images/application/usage_status_good.png"/>
+		<add name="usageStatusPoorImage" value="assets/images/application/usage_status_poor.png"/>
+		<add name="statusFairOn" value="assets/images/application/status_fair_on.png"/>
+		<add name="statusFairOff" value="assets/images/application/status_fair_off.png"/>
+		<add name="statusGoodOn" value="assets/images/application/status_good_on.png"/>
+		<add name="statusGoodOff" value="assets/images/application/status_good_off.png"/>
+		<add name="statusPoorOn" value="assets/images/application/status_poor_on.png"/>
+		<add name="statusPoorOff" value="assets/images/application/status_poor_off.png"/>
+		<add name="menuBackground" value="assets/images/application/menu_background.png"/>
+		
+		
+	</imageMappings>
+	<labels>	
+		<add name="c1" value="Ma consommation d'énergie au bureau"/>
+		<add name="c2" value="Je me sens..."/>
+		<add name="c3" value="J'ai froid"/>
+		<add name="c4" value="J'ai chaud"/>
+		<add name="c5" value="Je me sens bien"/>
+		<add name="c6" value="Consommation d'énergie au bureau"/>
+		<add name="c7" value="Ordinateur personnel"/>
+		<add name="c8" value="Imprimante"/>
+		<add name="c9" value="Appareils électriques"/>
+		<add name="c10" value="Objectif"/>
+		<add name="c11" value="Moyenne"/>
+		<add name="c12" value="Budget"/>
+		<add name="c13" value="Utilisation du véhicule électrique"/>
+		<add name="c14" value="Bureau"/>
+		<add name="c15" value="Extérieur"/>
+		<add name="c16" value="Intérieur"/>
+		<add name="c17" value="Temp"/>
+		<add name="c18" value="RH"/>
+		<add name="c19" value="Vent"/>
+		<add name="c20" value="Lumière"/>
+		<add name="c21" value="Personal Office Energy Monitor"/>
+		<add name="c22" value="Valider"/>
+		<add name="c23" value="Total Pluggables"/>
+		<add name="c24" value="Moi"/>
+		<add name="c25" value="Mon département"/>
+		<add name="c26" value="Mon étage"/>
+		<add name="c27" value="Mon bâtiment"/>
+		<add name="c28" value="Mon objectif"/>
+		<add name="c29" value="Ma consommation  "/>
+		<add name="c30" value="Lun"/>
+		<add name="c31" value="Mar"/>
+		<add name="c32" value="Mer"/>
+		<add name="c33" value="Jeu"/>
+		<add name="c34" value="Ven"/>
+		<add name="c35" value="Sam"/>
+		<add name="c36" value="Dim"/>
+		<add name="c37" value="Alertes"/>
+		<add name="c38" value="Attention : Votre niveau d'énergie consommée a dépassé votre objectif"/>
+		<add name="c39" value="Attention : Votre niveau d'énergie consommée augmente et vous approchez votre objectif hebdomadaire."/>
+		<add name="c40" value="Recommandation : pourquoi ne pas éteindre votre ventilateur personnel ?"/>
+		<add name="c41" value="Félicitations : Vous avez réduit votre consommation d'énergie moyenne en dessous de votre objectif"/>
+		<add name="c42" value="Votre consommation d'énergie a changé"/>
+		<add name="c43" value="Instantané"/>
+		<add name="c44" value="Moyenne journalière"/>
+		<add name="c45" value="Suivi"/>
+		<add name="c46" value="Ventilateur"/>
+		<add name="c47" value="Lampe"/>
+		<add name="c48" value="Chauffage d'appoint"/>
+		<add name="c49" value="Second Ordinateur"/>
+		<add name="c50" value="Chargeur de petit appareil"/>
+		<add name="c51" value="On"/>
+		<add name="c52" value="Off"/>
+		<add name="c53" value="Instant"/>
+	</labels>
+	<officeEnergy>
+		<categories>
+			<add name="pc" label="PC"/>
+			<add name="printer" label="Printer"/>
+			<add name="pluggable" label="Pluggable"/>
+		</categories>
+	</officeEnergy>
+</data>

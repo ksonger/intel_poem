@@ -1,0 +1,209 @@
+{
+	"userID":"12345678",
+	"indoorEnvironment":[
+		{"temperature":21,"unit":"C"},
+		{"humidity":70,"unit":"%"},
+		{"light":15,"unit":"lux"}
+	],
+	"outdoorEnvironment":[
+		{"season":"fall"},
+		{"temperature":21,"unit":"C"},
+		{"humidity":70,"unit":"%"},
+		{"windDirection":"NW","windSpeed":10,"unit":"km/h"}
+	],
+	"currentEnergyConsumption":[
+		{"pc":[
+				{"average":25}, 
+				{"snapshot": 28}, 
+				{"unit":"Wh"},
+				{"status":"good"}, 
+				{"snapshotTrend":"up"}, 
+				{"targetValue":770},
+				{"targetValueEnabled":1}
+			]
+		},
+		{"printer":[
+				{"average":55},
+				{"snapshot":60},
+				{"unit":"Wh"}, 
+				{"status":"neutral"}, 
+				{"snapshotTrend":"down"}, 
+				{"targetValue":953},
+				{"targetValueEnabled":1}
+			]
+		},
+		{"pluggable":[
+				{"average":105},
+				{"snapshot":110}, 
+				{"unit":"Wh"},
+				{"status":"bad"}, 
+				{"snapshotTrend":"down"}, 
+				{"targetValue":300},
+				{"targetValueEnabled":1}
+			]
+		},
+		{"office":[
+				{"average":555},
+				{"snapshot":498}, 
+				{"unit":"Wh"},
+				{"status":"bad"}, 
+				{"snapshotTrend":"down"}, 
+				{"targetValue":2023},
+				{"targetValueEnabled":1}
+			]
+		},
+		{"ev":[ 
+				{ "average":370 }, 
+				{ "snapshot":300 }, 
+				{ "unit":"Wh" }, 
+				{ "status":"bad" }, 
+				{ "snapshotTrend":"normal" }, 
+				{ "targetValue":300 },
+				{"targetValueEnabled":1}
+			] 
+		}
+	],
+	"alerts":[ 
+		{ "type":"information", "msg":"Informational message content to be added here" }, 
+		{"type":"alert", "msg":"Alert message content would go here" },
+		{"msgDisabled":"1"}
+	],
+	"pcEnergyComparison":[ 
+		{ "level":"user", "name":"mchang", "unit":"Wh", "energyConsumption":[
+				{ "date":"05/26/2011", "energy":2337 },
+				{"date":"05/25/2011", "energy":2295 }, 
+				{ "date":"05/24/2011", "energy":1240 },
+				{"date":"05/23/2011", "energy":423 }, 
+				{ "date":"05/22/2011", "energy":450 },
+				{"date":"05/21/2011", "energy":1875 }, 
+				{ "date":"05/20/2011", "energy":1525 } 
+			] 
+		},
+		{"level":"department", "name":"EPTO", "unit":"Wh", "energyConsumption":[ 
+				{ "date":"05/26/2011", "energy":2323 },
+				{"date":"05/25/2011", "energy":2000 },
+				{"date":"05/24/2011", "energy":2134 },
+				{"date":"05/23/2011", "energy":564 },
+				{"date":"05/22/2011", "energy":455 },
+				{"date":"05/21/2011", "energy":1472 },
+				{"date":"05/20/2011", "energy":1742 } 
+			] 
+		},
+		{"level":"floor", "name":"floor2", "unit":"Wh", "energyConsumption":[ 
+				{ "date":"05/26/2011", "energy":2555 },
+				{"date":"05/25/2011", "energy":2345 },
+				{"date":"05/24/2011", "energy":1908 },
+				{"date":"05/23/2011", "energy":344 },
+				{"date":"05/22/2011", "energy":433 },
+				{"date":"05/21/2011", "energy":1479 },
+				{"date":"05/20/2011", "energy":1742 } 
+			] 
+		},
+		{"level":"building", "name":"jonesfarm2", "unit":"Wh", "energyConsumption":[ 
+				{ "date":"05/26/2011", "energy":2472 },
+				{"date":"05/25/2011", "energy":2424 },
+				{"date":"05/24/2011", "energy":2011 },
+				{"date":"05/23/2011", "energy":555 },
+				{"date":"05/22/2011", "energy":546 },
+				{"date":"05/21/2011", "energy":1479 },
+				{"date":"05/20/2011", "energy":1792 } 
+			] 
+		} 
+	],
+	"printerEnergyComparison":[ 
+		{"level":"user", "name":"mchang", "unit":"Wh", "energyConsumption":[ 
+				{"date":"05/26/2011", "energy":1472 },
+				{"date":"05/25/2011", "energy":1272 },
+				{"date":"05/24/2011", "energy":1572 },
+				{"date":"05/23/2011", "energy":472 },
+				{"date":"05/22/2011", "energy":172 },
+				{"date":"05/21/2011", "energy":1667 },
+				{"date":"05/20/2011", "energy":1792 } 
+			] 
+		},
+		{"level":"department", "name":"EPTO", "unit":"Wh", "energyConsumption":[ 
+				{"date":"05/26/2011", "energy":1442 },
+				{"date":"05/25/2011", "energy":1472 },
+				{"date":"05/24/2011", "energy":1972 },
+				{"date":"05/23/2011", "energy":220 },
+				{"date":"05/22/2011", "energy":472 },
+				{"date":"05/21/2011", "energy":2472 },
+				{"date":"05/20/2011", "energy":1972 } 
+			] 
+		},
+		{"level":"floor", "name":"floor2", "unit":"Wh", "energyConsumption":[ 
+				{ "date":"05/26/2011", "energy":1572 },
+				{"date":"05/25/2011", "energy":1272 },
+				{"date":"05/24/2011", "energy":1772 },
+				{"date":"05/23/2011", "energy":472 },
+				{"date":"05/22/2011", "energy":442 },
+				{"date":"05/21/2011", "energy":1472 },
+				{"date":"05/20/2011", "energy":1572 } 
+			] 
+		},
+		{"level":"building", "name":"jonesfarm2", "unit":"Wh", "energyConsumption":[ 
+				{ "date":"05/26/2011", "energy":1372 },
+				{"date":"05/25/2011", "energy":1572 },
+				{"date":"05/24/2011", "energy":1872 },
+				{"date":"05/23/2011", "energy":720 },
+				{"date":"05/22/2011", "energy":232 },
+				{"date":"05/21/2011", "energy":1972 },
+				{"date":"05/20/2011", "energy":2072 } 
+			] 
+		} 
+	],
+	"pluggableEnergyComparison":[ 
+		{ "level":"user", "name":"mchang", "unit":"Wh",
+			"devices":[
+				{"deviceName":"Monitor", "average":"70", "snapshot":"60", "unit":"W", "state":"on", "switchable":"no" },
+				{"deviceName":"Lamp", "average":"30", "snapshot":"22", "unit":"W", "state":"on", "switchable":"yes" },
+				{"deviceName":"Fan", "average":"40", "snapshot":"42", "unit":"W", "state":"on", "switchable":"yes" },
+				{"deviceName":"Heater", "average":"300", "snapshot":"350", "unit":"W", "state":"on", "switchable":"no" },
+				{"deviceName":"Computer 2", "average":"70", "snapshot":"62", "unit":"W", "state":"on", "switchable":"no" },
+				{"deviceName":"Charge station", "average":"20", "snapshot":"22", "unit":"W", "state":"off", "switchable":"yes" } 
+			],
+			"energyConsumption":[
+				{"date":"05/26/2011", "energy":1272 },
+				{"date":"05/25/2011", "energy":1372 },
+				{"date":"05/24/2011", "energy":1172 },
+				{"date":"05/23/2011", "energy":172 },
+				{"date":"05/22/2011", "energy":120 },
+				{"date":"05/21/2011", "energy":1372 },
+				{"date":"05/20/2011", "energy":1442 } 
+			] 
+		},
+		{"level":"department", "name":"EPTO", "unit":"Wh",
+			"energyConsumption":[
+				{"date":"05/26/2011", "energy":1434 },
+				{"date":"05/25/2011", "energy":1272 },
+				{"date":"05/24/2011", "energy":1452 },
+				{"date":"05/23/2011", "energy":542 },
+				{"date":"05/22/2011", "energy":442 },
+				{"date":"05/21/2011", "energy":1872 },
+				{"date":"05/20/2011", "energy":1992 }
+			]
+		},
+		{"level":"floor", "name":"floor2", "unit":"Wh",
+			"energyConsumption":[
+				{"date":"05/26/2011", "energy":1546 },
+				{"date":"05/25/2011", "energy":1953 },
+				{"date":"05/24/2011", "energy":2123 },
+				{"date":"05/23/2011", "energy":599 },
+				{"date":"05/22/2011", "energy":409 },
+				{"date":"05/21/2011", "energy":1754 },
+				{"date":"05/20/2011", "energy":1456 }
+			]
+		},
+		{"level":"building", "name":"jonesfarm2", "unit":"Wh",
+			"energyConsumption":[
+				{"date":"05/26/2011", "energy":2001 },
+				{"date":"05/25/2011", "energy":2094 },
+				{"date":"05/24/2011", "energy":1983 },
+				{"date":"05/23/2011", "energy":435 },
+				{"date":"05/22/2011", "energy":542 },
+				{"date":"05/21/2011", "energy":1562 },
+				{"date":"05/20/2011", "energy":1874 }
+			]
+		}
+	]
+}

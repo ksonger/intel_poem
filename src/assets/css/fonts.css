@@ -1,0 +1,12 @@
+﻿@font-face {
+    src: local("Helvetica LT Std Roman");
+	/*src:url("../fonts/HelveticaNeue.dfont");*/
+/*	src:url("fonts.swf");*/
+    fontFamily: "Helvetica LT Std Roman";
+    advancedAntiAliasing: true;
+}
+
+VBox {
+	fontFamily: "Helvetica LT Std Roman";
+	fontSize: 25;
+}
