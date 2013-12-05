@@ -26,7 +26,7 @@ package com.poem.views.ambient
 	
 	/**
 	 * ...
-	 * @author Ken Songer and Erik Falat
+	 * @author Ken Songer
 	 */
 	public class Ambient extends Sprite implements IDisposable, IInitializable, IUpdateable
 	{		
@@ -109,13 +109,11 @@ package com.poem.views.ambient
 		{
 			rule_wh = new Sprite();
 			rule_wh.graphics.lineStyle(1, 0xFFFFFF, 1, false, LineScaleMode.NONE, CapsStyle.NONE, JointStyle.MITER, 10);
-			rule_wh.graphics.moveTo(10, 23);
-			//rule_wh.graphics.lineTo(140, 23);			
+			rule_wh.graphics.moveTo(10, 23);		
 			
 			rule_gry = new Sprite();
 			rule_gry.graphics.lineStyle(1, 0xCCCCCC, 1, false, LineScaleMode.NONE, CapsStyle.NONE, JointStyle.MITER, 10);
-			rule_gry.graphics.moveTo(10, 24);
-			//rule_gry.graphics.lineTo(140, 24);			
+			rule_gry.graphics.moveTo(10, 24);			
 			
 			background = new Sprite();
 			background.graphics.lineStyle(1, 0xCCCCCC, 1, true, LineScaleMode.NONE, CapsStyle.NONE, JointStyle.MITER, 10);
@@ -127,11 +125,9 @@ package com.poem.views.ambient
 			matr.createGradientBox(372, 82, 90, 0, 0);
 			var spreadMethod:String = SpreadMethod.PAD;				
 			background.graphics.beginGradientFill(fillType, colors, alphas, ratios, matr, spreadMethod);	
-			//background.graphics.drawRoundRect(0, 0, 150, 80, 25);
 			
 			mask_clip = new Sprite();
-			mask_clip.graphics.beginFill(0xFF0000, .4);		
-			//mask_clip.graphics.drawRect(0, 0, 150, 70);			
+			mask_clip.graphics.beginFill(0xFF0000, .4);					
 		}
 	}
 }

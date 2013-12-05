@@ -35,7 +35,7 @@ package com.poem.views.comfort
 	
 	/**
 	 * ...
-	 * @author Ken Songer and Erik Falat
+	 * @author Ken Songer
 	 */
 	public dynamic class Comfort extends Sprite implements IDisposable, IInitializable
 	{		

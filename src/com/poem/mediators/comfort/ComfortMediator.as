@@ -149,7 +149,7 @@ package com.poem.mediators.comfort
 			}
 			
 			view.submittedDialogVisible = true;
-			//setTimeout(submittedCloseHandler, 4000, new MouseEvent(MouseEvent.CLICK));
+
 		}
 		private function bgOver(e:MouseEvent):void 
 		{

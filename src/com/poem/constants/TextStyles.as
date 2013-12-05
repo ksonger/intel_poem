@@ -1,5 +1,9 @@
 package com.poem.constants
 {
+	/**
+	 * ...
+	 * @author Ken Songer
+	 */
 	
 	import flash.text.Font;
 	

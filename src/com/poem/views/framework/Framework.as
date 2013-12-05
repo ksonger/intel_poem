@@ -93,8 +93,7 @@ package com.poem.views.framework
 			
 			var style:Object = sheet.getStyle("VBox");
 			
-			var app_title:TextField = TextFieldHelper.createTextField(280, 20, 300, app_txt, "APP_TITLE", TextStyles.APPLICATION_TITLE, TextFieldAutoSize.LEFT)
-			//var app_title:TextField = TextFieldHelper.createTextField(280, 20, 300, app_txt, "APP_TITLE", style, TextFieldAutoSize.LEFT)
+			var app_title:TextField = TextFieldHelper.createTextField(280, 20, 300, app_txt, "APP_TITLE", TextStyles.APPLICATION_TITLE, TextFieldAutoSize.LEFT);
 			var page_title:TextField = TextFieldHelper.createTextField(50, 50, 110, title_txt, "TITLE", TextStyles.APPLICATION_PAGE, TextFieldAutoSize.LEFT, false, true);
 			
 			addChild(app_title);

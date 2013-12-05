@@ -1,5 +1,10 @@
 package com.poem.helpers.notifications
 {
+	/**
+	 * ...
+	 * @author Ken Songer
+	 */
+
 	import com.poem.constants.TextStyles;
 	import com.poem.helpers.TextFieldHelper;
 	import com.poem.helpers.notifications.PopupAlertManager;

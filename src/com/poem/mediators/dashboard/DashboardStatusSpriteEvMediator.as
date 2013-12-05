@@ -12,44 +12,46 @@ package com.poem.mediators.dashboard
 	 * ...
 	 * @author Ken Songer
 	 */
-	public class DashboardStatusSpriteEvMediator extends Mediator
-	{
-		[Inject]
-		public var view:DashboardStatusSpriteEv;
-		
-		[Inject]
-		public var dataUpdated:SensorDataUpdatedSignal;	
-		
-		[Inject]
-		public var changeScreen:ChangeScreenSignal;			
-		
-		override public function onRegister() : void 
-		{		
-			dataUpdated.add(dataUpdatedHandler);
-			view.addEventListener(MouseEvent.CLICK, onClick,false,0,true);
-			view.useHandCursor = true;
-			view.buttonMode = true;
-			view.mouseChildren = false;
-			view.initialize();
-		}
-		
-		override public function onRemove():void 
-		{
-			dataUpdated.remove(dataUpdatedHandler);
-			view.removeEventListener(MouseEvent.CLICK, onClick);
-			view.dispose();
-			view = null;
-		}
-		
-		private function dataUpdatedHandler() : void
-		{
-			view.update();
-		}		
+	 public class DashboardStatusSpriteEvMediator extends Mediator
+	 {
+	 	[Inject]
+	 	public var view:DashboardStatusSpriteEv;
 
-		private function onClick(event:MouseEvent) : void
-		{
-			changeScreen.dispatch(Screens.EVUSAGE);
-		}
-		
+	 	[Inject]
+	 	public var dataUpdated:SensorDataUpdatedSignal;	
+
+	 	[Inject]
+	 	public var changeScreen:ChangeScreenSignal;			
+
+	 	override public function onRegister() : void 
+	 	{		
+	 		dataUpdated.add(dataUpdatedHandler);
+	 		with(view)	{
+	 			addEventListener(MouseEvent.CLICK, onClick,false,0,true);
+	 			useHandCursor = true;
+	 			buttonMode = true;
+	 			mouseChildren = false;
+	 			initialize();
+	 		}
+	 	}
+
+	 	override public function onRemove():void 
+	 	{
+	 		dataUpdated.remove(dataUpdatedHandler);
+	 		view.removeEventListener(MouseEvent.CLICK, onClick);
+	 		view.dispose();
+	 		view = null;
+	 	}
+
+	 	private function dataUpdatedHandler() : void
+	 	{
+	 		view.update();
+	 	}		
+
+	 	private function onClick(event:MouseEvent) : void
+	 	{
+	 		changeScreen.dispatch(Screens.EVUSAGE);
+	 	}
+
+	 }
 	}
-}

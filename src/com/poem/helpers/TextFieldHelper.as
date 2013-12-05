@@ -28,8 +28,6 @@ package com.poem.helpers
 			newTextField.y = y;
 			newTextField.width = width;
 			newTextField.embedFonts = true;
-/*			newTextField.border = true;*/
-/*			if(style != null)*/
 			var css:StyleSheet = new StyleSheet();
 			css.setStyle(".style", style);
 			newTextField.styleSheet = css;

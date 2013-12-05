@@ -1,5 +1,9 @@
 package com.poem.helpers.notifications
 {
+	/**
+	 * ...
+	 * @author Ken Songer
+	 */
 	import com.poem.helpers.notifications.MessageWindow;
 	import com.poem.models.PoemModel;
 	

@@ -36,9 +36,10 @@ package com.poem.models
 			data.officeTargetsVisible = (v.currentEnergyConsumption[3].office[6].targetValueEnabled == '1');
 			data.pcTargetsVisible = (v.currentEnergyConsumption[0].pc[6].targetValueEnabled == '1');;
 			data.printerTargetsVisible = (v.currentEnergyConsumption[1].printer[6].targetValueEnabled == '1');
+
 			//Mark passing 1, so just setting to always false
-			//data.pluggableTargetsVisible = (v.currentEnergyConsumption[2].pluggable[6].targetValueEnabled == '1');
 			data.pluggableTargetsVisible = false;
+			
 			data.evTargetsVisible = (v.currentEnergyConsumption[4].ev[6].targetValueEnabled == '1');
 			try 
 			{

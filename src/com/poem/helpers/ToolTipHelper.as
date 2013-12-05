@@ -65,19 +65,16 @@ package com.poem.helpers
 			TweenMax.to(bg, .1, {dropShadowFilter:{color:0x000000, alpha:.2, blurX:2, blurY:2, angle:0, distance:3}});
 			
 			var name_txt:String = label.toUpperCase();
-			//var target_txt:String = model.labelManager.getLabel("c10");
+
 			var average_txt:String = model.labelManager.getLabel("c11");
 			
-			//target_txt = target_txt.toUpperCase() + " : " + target + unit;
 			average_txt = average_txt.toUpperCase() + " : " + average + unit;
 			
 			var name_tf:TextField = TextFieldHelper.createTextField(5, 2, 50, name_txt, "TEMP", TextStyles.USAGE_PLUGGABLE_TOOLTIP_HEADER, TextFieldAutoSize.LEFT);
-			//var target_tf:TextField = TextFieldHelper.createTextField(5, 13, 50, target_txt, "TEMP", TextStyles.USAGE_PLUGGABLE_TOOLTIP, TextFieldAutoSize.LEFT);
 			var average_tf:TextField = TextFieldHelper.createTextField(5, 13, 50, average_txt, "TEMP", TextStyles.USAGE_PLUGGABLE_TOOLTIP, TextFieldAutoSize.LEFT);
 
 			container.addChild(bg);
 			container.addChild(name_tf);
-			//container.addChild(target_tf);
 			container.addChild(average_tf);
 			addChild(container);
 		}

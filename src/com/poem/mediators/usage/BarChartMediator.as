@@ -289,7 +289,6 @@ package com.poem.mediators.usage
 		}
 		private function targetReleaseHandler(e:MouseEvent):void 
 		{
-			//sensorData.rawData.currentEnergyConsumption[3].office[5].targetValue
 				try 
 				{
 					if (dragging) 

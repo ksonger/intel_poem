@@ -35,16 +35,13 @@ package com.poem.views.usage
 
 		[Inject]
 		public var model:PoemModel;
-		
+
 		private var image_url:String;
 		private var index:Number;
-		private var toggle_state:String;
-		
+		private var toggle_state:String;		
 		private var on_line:Sprite;
-		private var off_circle:Sprite;
-		
+		private var off_circle:Sprite;		
 		private var toolTip:ToolTipHelper;
-		
 		private var toggle_handle:Loader = new Loader();
 		private var toggle_background:Loader = new Loader();
 		

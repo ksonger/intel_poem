@@ -118,8 +118,9 @@ package com.poem.services
 			dbconnect = true;
 			var rawJson:String = event.target.data;
 			var data:Object = com.adobe.serialization.json.JSON.decode(rawJson);
+			
 			// Setting the rawData will trigger the SensorDataUpdatedSignal
-			//trace('DATA IS: ' + event.target.data);
+
 			model.sensorData = PoemDataParser.parse(data);
 			urlLoader.removeEventListener(Event.COMPLETE, handleData);
 			urlLoader.removeEventListener(IOErrorEvent.IO_ERROR, handleError);

@@ -31,11 +31,9 @@ package com.poem.mediators.usage
 			if (b == true){
 				view.addEventListener(MouseEvent.ROLL_OVER, rollOver,false,0,true);
 				view.addEventListener(MouseEvent.ROLL_OUT, rollOut,false,0,true);
-/*				view.addEventListener(MouseEvent.CLICK, click,false,0,true);	*/
 			} else {
 				view.removeEventListener(MouseEvent.ROLL_OVER, rollOver);
-				view.removeEventListener(MouseEvent.ROLL_OUT, rollOut);
-/*				view.removeEventListener(MouseEvent.CLICK, click);*/					
+				view.removeEventListener(MouseEvent.ROLL_OUT, rollOut);					
 			}
 			view.useHandCursor = b;
 			view.buttonMode = b;			
